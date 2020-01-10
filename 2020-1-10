@@ -1,3 +1,6 @@
+题目
+26. 删除排序数组中的重复项
+
 class Solution {
     public int removeDuplicates(int[] nums) {
         int j = 0; //首指针
@@ -10,3 +13,6 @@ class Solution {
 		return j+1;
     }
 }
+
+
+
